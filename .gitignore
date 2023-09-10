@@ -1,0 +1,40 @@
+# Dependency directories (node_modules)
+/client/node_modules/
+/server/node_modules/
+
+# Next.js build output
+/client/.next/
+/client/out/
+
+# dotenv environment variables files
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# IDEs and text editors
+/.idea/
+*.sublime*
+*.suo
+*.sln
+*.swp
+*.accdb
+*.db
+*.db-wal
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Nest.js
+/server/dist
+/server/coverage
+/server/.env
+/server/.env.test
+/server/.cache
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
